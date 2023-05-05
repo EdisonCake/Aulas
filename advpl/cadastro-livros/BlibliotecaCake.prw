@@ -67,7 +67,6 @@ User Function ValISBN()
 
 Return lPrograma
 
-
 User Function PesqCod()
     // Declaração de variáveis
     local cTitle := "Pesquisa de Livro"
@@ -117,6 +116,12 @@ User Function PesqCod()
 
 Return 
 
+/*/{Protheus.doc} LivInfo
+    Função estática para a pesquisa das informações solicitadas para a exibição.
+    @type  Function
+    @author Edison Cake
+    @since 21/03/2023
+    /*/
 Static Function LivInfo()
     
     local aArea  := GetArea()

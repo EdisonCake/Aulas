@@ -45,6 +45,12 @@ Static Function ModelDef()
     oModel:AddFields("ZZLMASTER",,oStruZZL)
     oModel:SetDescription("Cadastro de Livros")
 
+    //! Utilizando o método SetProperty(), o primeiro parâmetro indica qual o campo a ser atribuída a propriedade, o segundo qual a propriedade a ser tratada, e o valor para a propriedade. No caso, os campos mencionados podem ser alterados somente na hora da INCLUSÃO do registro, e não na alteração.
+    oStruZZL:SetProperty('ZZL_ISBN',    MODEL_FIELD_WHEN, FwBuildFeature(STRUCT_FEATURE_WHEN, 'INCLUI'))
+    oStruZZL:SetProperty('ZZL_TITULO',  MODEL_FIELD_WHEN, FwBuildFeature(STRUCT_FEATURE_WHEN, 'INCLUI'))
+    oStruZZL:SetProperty('ZZL_AUTOR',   MODEL_FIELD_WHEN, FwBuildFeature(STRUCT_FEATURE_WHEN, 'INCLUI'))
+    oStruZZL:SetProperty('ZZL_EDITOR',  MODEL_FIELD_WHEN, FwBuildFeature(STRUCT_FEATURE_WHEN, 'INCLUI'))
+
     oModel:SetPrimaryKey({"ZZL_FILIAL", "ZZL_COD"})
 
 Return oModel
