@@ -15,7 +15,22 @@
 	"lastPrograms": [
 		{
 			"label": "SIGACOM"
+		},
+		{
+			"label": "u_incauto1"
+		},
+		{
+			"label": "u_incautomvc"
+		},
+		{
+			"label": "u_incautmvc"
+		},
+		{
+			"label": "SIGAFAT"
+		},
+		{
+			"label": "u_InsBook"
 		}
 	],
-	"lastProgramExecuted": "SIGACOM"
+	"lastProgramExecuted": "u_InsBook"
 }
