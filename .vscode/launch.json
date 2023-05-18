@@ -1,0 +1,349 @@
+{
+	"version": "0.2.0",
+	"includes": [
+		"C:\\TOTVS12\\Protheus\\Protheus\\include"
+	],
+	"permissions": {
+		"authorizationtoken": ""
+	},
+	"configurations": [
+		{
+			"type": "totvs_language_debug",
+			"request": "launch",
+			"name": "Depuração do idioma TOTVS",
+			"program": "${command:AskForProgramName}",
+			"cwb": "${workspaceFolder}",
+			"smartclientBin": "C:\\TOTVS12\\Protheus\\Protheus\\bin\\smartclient\\smartclient.exe",
+			"isMultiSession": true,
+			"enableTableSync": true
+		}
+	],
+	"lastPrograms": [
+		{
+			"args": [],
+			"label": "HelloWorld"
+		},
+		{
+			"label": "u_HelloWorld"
+		},
+		{
+			"label": "u_Declaracao"
+		},
+		{
+			"label": "u_Escopo"
+		},
+		{
+			"label": "u_Tipos"
+		},
+		{
+			"label": "u_Funcoes"
+		},
+		{
+			"label": "u_Operadores"
+		},
+		{
+			"label": "u_Exemplo01"
+		},
+		{
+			"label": "u_Exemplo02"
+		},
+		{
+			"label": "u_ExemploDoCase"
+		},
+		{
+			"label": "u_ExemploForNext"
+		},
+		{
+			"label": "u_ExemploWhile"
+		},
+		{
+			"label": "u_zCalculadora"
+		},
+		{
+			"label": "u_BusProdGen"
+		},
+		{
+			"label": "u_BusSQL"
+		},
+		{
+			"label": "u_Ex01.prw"
+		},
+		{
+			"label": "u_Exercicio01"
+		},
+		{
+			"label": "u_Exercicio02"
+		},
+		{
+			"label": "u_SQLNOTA_01"
+		},
+		{
+			"label": "u_SQL_04"
+		},
+		{
+			"label": "u_SQL_03"
+		},
+		{
+			"label": "u_SQL_01"
+		},
+		{
+			"label": "u_SQL_02"
+		},
+		{
+			"label": "u_SQL_05"
+		},
+		{
+			"label": "u_SQL_06"
+		},
+		{
+			"label": "u_SQL_07"
+		},
+		{
+			"label": "u_SQL_08"
+		},
+		{
+			"label": "u_SQL_09"
+		},
+		{
+			"label": "u_L3_E5"
+		},
+		{
+			"label": "u_SQL_10"
+		},
+		{
+			"label": "u_SQL_11"
+		},
+		{
+			"label": "u_SQL_12"
+		},
+		{
+			"label": "u_Ex013.prw"
+		},
+		{
+			"label": "u_Ex_013"
+		},
+		{
+			"label": "u_ArrayFiller"
+		},
+		{
+			"label": "u_Teste"
+		},
+		{
+			"label": "u_MediaTemp"
+		},
+		{
+			"label": "u_DeTras"
+		},
+		{
+			"label": "u_Desceu"
+		},
+		{
+			"label": "u_Escada"
+		},
+		{
+			"label": "u_ContaLetra"
+		},
+		{
+			"label": "u_Chall03"
+		},
+		{
+			"label": "u_IntVisual"
+		},
+		{
+			"label": "SIGACFG"
+		},
+		{
+			"label": "SIGACOM"
+		},
+		{
+			"label": "U_AdcPL01"
+		},
+		{
+			"label": "U_AdvPL01"
+		},
+		{
+			"label": "U_AdvPL02"
+		},
+		{
+			"label": "U_AdvPL03"
+		},
+		{
+			"label": "U_AdvPL04"
+		},
+		{
+			"label": "U_AdvPL05"
+		},
+		{
+			"label": "u_Numeros"
+		},
+		{
+			"label": "u_AdvPL08"
+		},
+		{
+			"label": "u_AdvPL09"
+		},
+		{
+			"label": "u_AdvPL10"
+		},
+		{
+			"label": "u_AdvPL11"
+		},
+		{
+			"label": "u_AdvPL12"
+		},
+		{
+			"label": "u_AdvPL13"
+		},
+		{
+			"label": "u_AdvPL14"
+		},
+		{
+			"label": "u_AdvPL15"
+		},
+		{
+			"label": "u_AdvPL16"
+		},
+		{
+			"label": "u_Meses"
+		},
+		{
+			"label": "u_L5E1"
+		},
+		{
+			"label": "u_L5E2"
+		},
+		{
+			"label": "u_L5E3"
+		},
+		{
+			"label": "u_L5E4"
+		},
+		{
+			"label": "u_L5E5"
+		},
+		{
+			"label": "u_L5E6"
+		},
+		{
+			"label": "u_L5E7"
+		},
+		{
+			"label": "u_L5E8"
+		},
+		{
+			"label": "u_L5E9"
+		},
+		{
+			"label": "u_L5E82"
+		},
+		{
+			"label": "u_L5E10"
+		},
+		{
+			"label": "u_L5E11"
+		},
+		{
+			"label": "u_L5E12"
+		},
+		{
+			"label": "u_L5E13"
+		},
+		{
+			"label": "u_L5E14"
+		},
+		{
+			"label": "u_L5E16"
+		},
+		{
+			"label": "u_TesteArray"
+		},
+		{
+			"label": "u_TL5E14"
+		},
+		{
+			"label": "u_L5E15"
+		},
+		{
+			"label": "u_L5E17"
+		},
+		{
+			"label": "SIGAMDI"
+		},
+		{
+			"label": "SIGAFAT"
+		},
+		{
+			"label": "U_FISA010"
+		},
+		{
+			"label": "SIGACAM"
+		},
+		{
+			"label": "u_MSPRINTER"
+		},
+		{
+			"label": "u_PLANILHA_XLS"
+		},
+		{
+			"label": "u_L12E01"
+		},
+		{
+			"label": "u_L12E02"
+		},
+		{
+			"label": "u_GetCurso"
+		},
+		{
+			"label": "u_EscreveTXT"
+		},
+		{
+			"label": "u_EscreveCSV"
+		},
+		{
+			"label": "u_LerTXT"
+		},
+		{
+			"label": "u_LerCSV"
+		},
+		{
+			"label": "u_CriaPasta"
+		},
+		{
+			"label": "u_DelPasta"
+		},
+		{
+			"label": "u_CopiaArq"
+		},
+		{
+			"label": "u_NewFolder"
+		},
+		{
+			"label": "u_NewFile"
+		},
+		{
+			"label": "u_GetFile"
+		},
+		{
+			"label": "u_CopyPaste"
+		},
+		{
+			"label": "u_ByeFile"
+		},
+		{
+			"label": "u_ComCust"
+		},
+		{
+			"label": "u_AltCust"
+		},
+		{
+			"label": "u_ByeForn"
+		},
+		{
+			"label": "u_LoadProd"
+		},
+		{
+			"label": "u_InsBook"
+		}
+	],
+	"lastProgramExecuted": "u_InsBook"
+}
